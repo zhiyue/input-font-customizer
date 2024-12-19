@@ -1,0 +1,11 @@
+# 设置默认行为
+* text=auto
+
+# 指定始终使用 LF 的文件
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+
+# 指定始终使用 CRLF 的文件（Windows 特定文件）
+*.bat text eol=crlf
+*.cmd text eol=crlf
